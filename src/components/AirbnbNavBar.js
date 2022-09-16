@@ -1,4 +1,4 @@
-import '../App.css'
+import '../AirbnbApp.css'
 import planet from '../assets/Fill 213.png'
 function NavBar() {
   return (

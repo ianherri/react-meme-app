@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 20px;
+}
+
+.box-component {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px 10px 20px;
+}
+
+.box-element {
+  height: auto;
+  min-width: 200px;
+  background-color: #0000ff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  color: palegreen;
+  padding: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+textarea {
+  resize: vertical;
+  max-height: 300px;
+  min-height: 200px;
+  border: none;
+  border-radius: 12px;
+}

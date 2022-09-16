@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import App from './App'
+import MemeApp from './MemeApp'
 import reportWebVitals from './reportWebVitals'
 
-const app = <App />
+const app = <MemeApp />
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(app)

@@ -1,4 +1,4 @@
-import '../App.css'
+import '../AirbnbApp.css'
 
 function Main(props) {
   console.log(props)
